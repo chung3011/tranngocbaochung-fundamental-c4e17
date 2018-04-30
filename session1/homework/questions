@@ -1,0 +1,19 @@
+1/ cách kiểm tra loại biến
+
+>>> type(message)
+<type 'str'>
+>>> type(n)
+<type 'int'>
+>>> type(pi)
+<type 'float'>
+
+2/SyntaxError do biến có invalid names khi:
+-đặt tên biến trùng với từ khóa
+-tên biến bắt đầu bằng số hoặc chứa các dấu không hợp lệ ( trừ dấu _ )
+
+>>> 76trombones = "big parade"
+SyntaxError: invalid syntax
+>>> more$ = 1000000
+SyntaxError: invalid syntax
+>>> class = "Computer Science 101"
+SyntaxError: invalid syntax

@@ -1,0 +1,22 @@
+2. Boolean là kiểu dữ liệu chỉ có hai giá trị trả về là True và False
+
+>>> "C4E" != "boring"
+True
+>>> "10" + "a" == "1" + "0a"
+True
+>>> 5 + 5 > 6 + 4
+False
+
+3. Lưu đồ (flow chart) là một loại sơ đồ biểu diễn một thuật toán hoặc một quá trình,
+biểu hiện các bước công việc dưới dạng các loại hình hôp khác nhau theo thứ tự được biểu diễn bởi các mũi tên.
+Sơ đồ này có thể thể hiện giải pháp cho vấn đề cần giải quyết từng bước từng bước một.
+Các bước quá trình được hiển thị dưới dạng các hình hộp được nối với nhau bằng các mũi tên để thể hiện dòng điều khiển.
+
+4. Câu điều kiện lồng nhau là trường hợp khi câu lệnh có điều kiện nằm bên trong một nhánh của câu lệnh có điều kiện khác.
+if x < y:
+  print("STATEMENTS_A")
+else:
+  if x > y:
+    print("STATEMENTS_B")
+  else:
+    print("STATEMENTS_C")
