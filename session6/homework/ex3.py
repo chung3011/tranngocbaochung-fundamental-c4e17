@@ -9,6 +9,7 @@ def draw_square(length,c):
         left(90)
     # end_fill()
     mainloop()
-# l=float(input("length= "))
-# c=input("color: ")
-# draw_square(l,c)
+if __name__=="__main__":
+    l=float(input("length= "))
+    c=input("color: ")
+    draw_square(l,c)

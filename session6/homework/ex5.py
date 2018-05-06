@@ -10,7 +10,8 @@ def draw_star(x,y,length):
         forward(length)
         right(144)
     mainloop()
-# x=float(input("x= "))
-# y=float(input("y= "))
-# length=float(input("length= "))
-# draw_star(x,y,length)
+if __name__=="__main__":
+    x=float(input("x= "))
+    y=float(input("y= "))
+    length=float(input("length= "))
+    draw_star(x,y,length)
