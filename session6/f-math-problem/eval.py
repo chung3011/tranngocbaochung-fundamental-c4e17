@@ -16,6 +16,6 @@ def calc(x,y,op):
 # y=int(input("y= "))
 # op=input("op: ")
 # print("Result:",calc(x,y,op))
-print(__name__)
+# print(__name__)
 if __name__=="__main__":
     print("eval.py imported")
